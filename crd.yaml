@@ -1,0 +1,17 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: bfrs.kube-bfr.archisgore.com
+spec:
+  group: kube-bfr.archisgore.com
+  versions:
+    - name: v1
+      served: true
+      storage: true
+  scope: Namespaced
+  names:
+    plural: bfrs
+    singular: bfr
+    kind: BigEffingRocket
+    shortNames:
+    - ac

@@ -1,0 +1,7 @@
+apiVersion: kube-bfr.archisgore.com/v1
+kind: BigEffingRocket
+metadata:
+  name: block5
+spec:
+  destination: Mars
+  fuel: Methane
